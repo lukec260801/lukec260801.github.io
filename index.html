@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/2e35227049.js" crossorigin="anonymous"></script>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Montserrat', serif;
+      }
+    </style>
     <title>Home</title>
 </head>
 <body>
@@ -25,13 +35,10 @@
       <a href="#" class="navbar-item">
         Home
       </a>
-      <a href="projects.html" class="navbar-item">
+      <a href="#projects" class="navbar-item">
         Projects
       </a>
-      <a href="about.html" class="navbar-item">
-        About
-      </a>
-      <a href="contact.html" class="navbar-item">
+      <a href="#contact" class="navbar-item">
         Contact
       </a>
     </div>
@@ -40,14 +47,15 @@
 
 <!--Intro-->
 <div class="section">
-  <h1 class="title">Luke Campbell</h1>
+  <h1 class="title mb-4">Luke Campbell</h1>
   <h2 class="subtitle">System Admin</h2>
-  <p class="content">Welcome to my portfolio! I am a system administrator with a passion for technology and problem-solving. I have experience in managing and maintaining IT systems, ensuring their security and efficiency. My goal is to leverage my skills to contribute to innovative projects and help organizations thrive in the digital age.</p>
+  <p class="content">Welcome to my portfolio! I am a unix system administrator with a passion for technology and problem-solving. I have experience in managing and maintaining IT systems, primarily with RedHat Linux as well as some experience with Windows in an Azure environment. My goal is to leverage my skills to contribute to innovative projects.</p>
   <p class="content">Feel free to explore my projects and get in touch if you have any questions or opportunities!</p>
 </div>
 
 <!--Key Projects-->
-<div class="section">
+<div class="section is-large">
+  <section id="projects"><h1 class="title mb-4">Key Projects</h1></section>
   <div class="fixed-grid has-1-cols">
     <div class="grid">
 
@@ -103,6 +111,14 @@
 
     </div>
   </div>
+</div>
+
+<!--Contact-->
+<div class="section">
+<section id="contact">
+  <h1>Contact Me</h1>
+  <p>If you'd like to get in touch, feel free to reach out!</p>
+</section>
 </div>
 
 <!--Footer-->
