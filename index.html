@@ -159,4 +159,14 @@
     scroll-behavior: smooth;
   }
 </style>
+
+<!--Script to make external links oepn in new tab-->
+<script>
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+  if (!link.href.includes(window.location.hostname)) {
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+  }
+});
+</script>
 </html>
